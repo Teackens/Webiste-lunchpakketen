@@ -11,7 +11,12 @@ import Extra from "./components/extra/Extra";
 import Opmerkingen from "./components/Opmerkingen";
 import Loper from "./components/loper/Loper";
 import Header from "./components/Header";
-
+{
+  /*TODO: add external database for loading data*/
+}
+{
+  /*TODO: add external database for storing data*/
+}
 class App extends Component {
   render() {
     return (
@@ -22,6 +27,7 @@ class App extends Component {
           <BroodjesList />
           <Extra />
           <Opmerkingen />
+          {/*TODO: Add sumbition in button to save input data*/}
         </section>
       </div>
     );

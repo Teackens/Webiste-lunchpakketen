@@ -37,7 +37,6 @@ class Extra extends Component {
     ]
   };
   addOnderdeel = e => {
-    console.log(e);
     this.setState({
       [e.target.id]: e.target.value
     });
