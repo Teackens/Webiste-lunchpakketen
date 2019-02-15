@@ -1,3 +1,10 @@
+/**
+ * @author Daniel Huijskens
+ * @email huijskens.daniel@gmail.com
+ * @create date 2019-02-15 13:17:08
+ * @modify date 2019-02-15 13:17:08
+ * @desc [description]
+ */
 import React, { Component } from "react";
 import BroodjesList from "./components/broodje/BroodjesList";
 import Extra from "./components/extra/Extra";

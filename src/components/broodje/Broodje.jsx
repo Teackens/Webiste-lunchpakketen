@@ -1,3 +1,10 @@
+/**
+ * @author Daniel Huijskens
+ * @email huijskens.daniel@gmail.com
+ * @create date 2019-02-15 13:17:45
+ * @modify date 2019-02-15 13:17:45
+ * @desc [description]
+ */
 import React, { Component } from "react";
 import BroodjeMenu from "./BroodjeMenu";
 

@@ -1,3 +1,10 @@
+/**
+ * @author Daniel Huijskens
+ * @email huijskens.daniel@gmail.com
+ * @create date 2019-02-15 13:18:57
+ * @modify date 2019-02-15 13:18:57
+ * @desc [description]
+ */
 import React, { Component } from "react";
 import "materialize-css/dist/css/materialize.min.css";
 
