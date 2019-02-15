@@ -34,9 +34,11 @@ class BroodjeMenu extends Component {
               <label htmlFor="">Kies uw {this.props.onderdeel}</label>
             ) : null}
             <select id={this.props.onderdeel} onChange={this.handleChange}>
-              <option value="" disabled selected />
+              <option className="grey" value="" disabled selected />
               {this.props.menuOptions.map((element, index) => (
-                <option key={index}>{element.soort}</option>
+                <option className="grey" key={index}>
+                  {element.soort}
+                </option>
               ))}
             </select>
           </div>
